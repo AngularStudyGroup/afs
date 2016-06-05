@@ -1,0 +1,36 @@
+<div>
+    <h2>Assignment List</h2>
+
+    <p>
+        <button type="button" class="btn btn-primary" ng-click="vm.refresh()"><span
+            class="glyphicon glyphicon-refresh"></span>&nbsp;<span>Refresh</span>
+        </button>
+    </p>
+
+    <table id="Assignments" class="table table-striped">
+        <thead>
+        <tr>
+            <th class="col-md-2">No.</th>
+            <th class="col-md-6">Title</th>
+            <th class="col-md-2 text-center">Details</th>
+            <th class="col-md-2 text-center">Preview</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="assignment in vm.assignmentData">
+            <td><span class="text-capitalize">{{ assignment.no }}</span></td>
+            <td>{{ assignment.title }}</td>
+            <td class="text-center">
+                <a class="hand" href="{{ assignment.externalURL }}" target="_blank">
+                    <i class="glyphicon glyphicon-eye-open"></i>
+                </a>
+            </td>
+            <td class="text-center">
+                <a class="hand" href="/lessons/{{ assignment.no }}" target="_blank">
+                    <i class="glyphicon glyphicon-eye-open"></i>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

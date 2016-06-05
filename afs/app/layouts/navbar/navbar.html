@@ -20,24 +20,11 @@
                         <span class="hidden-sm">Home</span>
                     </a>
                 </li>
-                <li uib-dropdown class="dropdown pointer">
-                    <a class="dropdown-toggle" uib-dropdown-toggle href="" id="entity-menu">
-                        <span>
-                            <span class="glyphicon glyphicon-th-list"></span>
-                            <span class="hidden-sm">
-                                Lessons
-                            </span>
-                            <b class="caret"></b>
-                        </span>
+                <li ui-sref-active="active">
+                    <a ui-sref="assignments" ng-click="vm.collapseNavbar()">
+                        <span class="glyphicon glyphicon-tasks"></span>
+                        <span class="hidden-sm">Assignments</span>
                     </a>
-                    <ul class="dropdown-menu" uib-dropdown-menu>
-                        <li ui-sref-active="active">
-                            <a ng-click="vm.collapseNavbar()">
-                                <span class="glyphicon glyphicon-tasks"></span>&nbsp;
-                                <span>Lesson One</span>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
