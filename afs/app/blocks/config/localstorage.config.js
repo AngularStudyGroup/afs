@@ -8,6 +8,6 @@
     localStorageConfig.$inject = ['$localStorageProvider'];
 
     function localStorageConfig($localStorageProvider) {
-        $localStorageProvider.setKeyPrefix('jhi-');
+        $localStorageProvider.setKeyPrefix('afs-');
     }
 })();
