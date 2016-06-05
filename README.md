@@ -18,3 +18,9 @@ Happy learning Angular.js.
 2. Install bower. `npm install bower -gd`
 3. Install Gulp. `npm install gulp -gd`
 4. Initialize our project. `npm install -d` `bower install -d`
+
+> `bower install -d` is not required, this command would be executed by `npm install -d`. Because we have added this command in npm postinstall lifestyle, you can get detailed info by review file `package.json`.
+>
+> Every time we update dependency, you should execute `npm install -d` to get the project ready to brew.
+
+**Start project**

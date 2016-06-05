@@ -24,9 +24,9 @@ coverage
 build/Release
 
 # Dependency directory
-node_modules
-
-app/bower_components
+node_modules/
+afs/bower_components/
+www/
 
 # Optional npm cache directory
 .npm
@@ -35,5 +35,4 @@ app/bower_components
 .node_repl_history
 
 # Intelli IDEA
-
-.idea
+.idea/
