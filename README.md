@@ -24,3 +24,5 @@ Happy learning Angular.js.
 > Every time we update dependency, you should execute `npm install -d` to get the project ready to brew.
 
 **Start project**
+
+After everything installed, just type `gulp`. You will see the index page in a new browser window.

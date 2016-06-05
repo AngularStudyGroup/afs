@@ -10,8 +10,8 @@ var fs = require('fs'),
     cssnano = require('gulp-cssnano'),
     uglify = require('gulp-uglify'),
     useref = require("gulp-useref"),
-    revReplace = require("gulp-rev-replace")
-plumber = require('gulp-plumber'),
+    revReplace = require("gulp-rev-replace"),
+    plumber = require('gulp-plumber'),
     gulpIf = require('gulp-if'),
     handleErrors = require('./handleErrors');
 
