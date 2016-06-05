@@ -17,4 +17,4 @@ Happy learning Angular.js.
 1. Install Node.js LTS (4.x)
 2. Install bower. `npm install bower -gd`
 3. Install Gulp. `npm install gulp -gd`
-4. Initialize our project. `npm install -d`
+4. Initialize our project. `npm install -d` `bower install -d`
