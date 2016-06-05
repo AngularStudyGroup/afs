@@ -1,0 +1,28 @@
+{
+  "name": "afs",
+  "description": "A simple demo project for study angular 1 step by step.",
+  "main": "index.js",
+  "authors": [
+    "Yufan"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "Angular.js"
+  ],
+  "homepage": "https://github.com/AngularStudyGroup/afs",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-loader": "^1.5.6",
+    "angular-mocks": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "html5-boilerplate": "^5.3.0"
+  }
+}
