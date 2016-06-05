@@ -1,0 +1,22 @@
+{
+  "name": "afs",
+  "version": "1.0.0",
+  "description": "A simple demo project for study angular 1 step by step.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngularStudyGroup/afs.git"
+  },
+  "keywords": [
+    "Angular.js"
+  ],
+  "author": "Yufan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AngularStudyGroup/afs/issues"
+  },
+  "homepage": "https://github.com/AngularStudyGroup/afs#readme"
+}

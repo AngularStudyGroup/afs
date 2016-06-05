@@ -9,3 +9,12 @@ Finally, I decided to aim at Angular.js 1, and the latest LTS version is 1.5.x.
 This project would just follow [original official tutorial](https://docs.angularjs.org/tutorial/index). Hope you would enjoy it.
 
 Happy learning Angular.js.
+
+### Quick Start
+
+**Setting your environment**
+
+1. Install Node.js LTS (4.x)
+2. Install bower. `npm install bower -gd`
+3. Install Gulp. `npm install gulp -gd`
+4. Initialize our project. `npm install -d`
