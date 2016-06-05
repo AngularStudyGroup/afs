@@ -21,10 +21,44 @@
   "dependencies": {
     "angular": "^1.5.6",
     "angular-loader": "^1.5.6",
-    "angular-mocks": "^1.5.6",
     "angular-route": "^1.5.6",
     "html5-boilerplate": "^5.3.0",
     "jquery": "^2.2.4",
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.3.6",
+    "angular-aria": "1.5.6",
+    "angular-bootstrap": "1.2.5",
+    "angular-cache-buster": "0.4.3",
+    "angular-cookies": "1.5.6",
+    "ngstorage": "0.3.10",
+    "angular-loading-bar": "0.9.0",
+    "angular-resource": "1.5.6",
+    "angular-sanitize": "1.5.6",
+    "angular-ui-router": "0.3.1",
+    "bootstrap-ui-datetime-picker": "2.4.0",
+    "json3": "3.3.2",
+    "messageformat": "0.3.1",
+    "modernizr": "3.3.1",
+    "ng-file-upload": "12.0.4",
+    "ngInfiniteScroll": "1.2.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.6"
+  },
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "2.2.4"
+      }
+    },
+    "angular-cache-buster": {
+      "dependencies": {
+        "angular": "1.5.6"
+      }
+    },
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss"
+      ]
+    }
   }
 }
