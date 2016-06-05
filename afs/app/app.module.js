@@ -12,5 +12,11 @@
             'infinite-scroll',
             'angular-loading-bar'
         ])
-        .run();
+        .run(run);
+
+    run.$inject = ['stateHandler'];
+
+    function run(stateHandler) {
+        stateHandler.initialize();
+    }
 })();
