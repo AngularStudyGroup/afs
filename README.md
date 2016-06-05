@@ -1,5 +1,7 @@
 ## afs (Angular.js From Scrash)
 
+Join our online chat at [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/AngularStudyGroup/afs)
+
 ### Description
 
 afs (aka. Angular.js From Scrash), it's a simple study project for study angular 1 step by step.
