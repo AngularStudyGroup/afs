@@ -127,7 +127,7 @@ gulp.task('inject:test', function () {
         .pipe(plumber({errorHandler: handleErrors}))
         .pipe(inject(gulp.src(bowerFiles({includeDev: true, filter: ['**/*.js']}), {read: false}), {
             starttag: '// bower:js',
-            endtag: '// endbower',
+            endtag: '// end:bower',
             transform: function (filepath) {
                 return '\'' + filepath.substring(1, filepath.length) + '\',';
             }
@@ -215,7 +215,9 @@ gulp.task('test', ['inject:test', 'ngconstant:dev'], function (done) {
     new KarmaServer({
         configFile: __dirname + '/' + config.test + 'karma.conf.js',
         singleRun: true
-    }, done).start();
+    }, function () {
+        done();
+    }).start();
 });
 
 
