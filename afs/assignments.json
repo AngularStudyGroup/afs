@@ -1,5 +1,9 @@
 [{
     "no": "001",
-    "title": "Angular initialization",
+    "title": "Bootstrap your angular app",
     "externalURL": "https://github.com/AngularStudyGroup/angular-lessons/blob/master/lessons/01-bootstrap-angular.md"
+}, {
+    "no": "002",
+    "title": "Using Angular Templates",
+    "externalURL": "https://github.com/AngularStudyGroup/angular-lessons/tree/master/lessons/02-angular-templates.md"
 }]
