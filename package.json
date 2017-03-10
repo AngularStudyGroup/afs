@@ -62,7 +62,7 @@
     "karma-jasmine": "^1.0.2",
     "karma-jenkins-reporter": "0.0.2",
     "karma-junit-reporter": "^1.0.0",
-    "karma-phantomjs-launcher": "1.0.2",
+    "karma-phantomjs-launcher": "1.0.3",
     "karma-script-launcher": "^1.0.0",
     "lazypipe": "1.0.1",
     "lodash": "^4.13.1",
