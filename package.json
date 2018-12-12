@@ -64,7 +64,7 @@
     "karma-junit-reporter": "^1.0.0",
     "karma-phantomjs-launcher": "1.0.2",
     "karma-script-launcher": "^1.0.0",
-    "lazypipe": "1.0.1",
+    "lazypipe": "1.0.2",
     "lodash": "^4.13.1",
     "main-bower-files": "^2.13.1",
     "map-stream": "0.0.6",
