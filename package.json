@@ -61,7 +61,7 @@
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-jenkins-reporter": "0.0.2",
-    "karma-junit-reporter": "^1.0.0",
+    "karma-junit-reporter": "^2.0.1",
     "karma-phantomjs-launcher": "1.0.2",
     "karma-script-launcher": "^1.0.0",
     "lazypipe": "1.0.1",
